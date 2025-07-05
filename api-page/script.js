@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         if (DOM.apiLinksContainer) {
             DOM.apiLinksContainer.innerHTML = ''; 
-            const defaultLinks = [{ url: "https://github.com/FlowFalcon/Falcon-Api-UI", name: "Lihat di GitHub", icon: "fab fa-github" }];
+            const defaultLinks = [{ url: "https://venncode-inc.github.io/Fp/", name: "Akun Admin", icon: "fab fa-github" }];
             const linksToRender = settings.links?.length ? settings.links : defaultLinks;
 
             linksToRender.forEach(({ url, name, icon }, index) => {
