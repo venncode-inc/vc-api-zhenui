@@ -16,7 +16,7 @@
       "items": [
         {
           "name": "gemini",
-          "desc": "Talk with luminai",
+          "desc": "Talk with gemini",
           "path": "/ai/gemini?text=",
           "status": "ready",
           "params": {
