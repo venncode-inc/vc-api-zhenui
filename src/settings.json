@@ -12,7 +12,7 @@
   },
   "categories": [
     {
-      "name": "Ai",
+      "name": "koleksi API",
       "items": [
         {
           "name": "gemini",
@@ -32,6 +32,21 @@
             "text": "Text for luminai to respond to"
           }
         },
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "ready"
+        },
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
        {
           "name": "HydroMind",
           "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
@@ -43,31 +58,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "Random",
-      "items": [
-        {
-          "name": "Blue Archive",
-          "desc": "Blue Archive Random Images",
-          "path": "/random/ba",
-          "status": "ready"
-        }
-      ]
-    },
-    {
-      "name": "Search Tools",
-      "items": [
-        {
-          "name": "YouTube",
-          "desc": "Video search",
-          "path": "/search/youtube?q=",
-          "status": "ready",
-          "params": {
-            "q": "Search query"
-          }
-        }
-      ]
-    }               
+    }              
   ]
 }
